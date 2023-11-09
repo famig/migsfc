@@ -1,16 +1,9 @@
-if SHIELD_ALICE40_LEFT
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_REVIUNG41
 
 config ZMK_KEYBOARD_NAME
-    default "MIG GamePad"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_ALICE40_LEFT || SHIELD_ALICE40_RIGHT
-
-config ZMK_SPLIT
-    default y
+    default "Reviung41"
 
 endif
