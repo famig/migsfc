@@ -11,7 +11,7 @@
         base_layer {
             label = "BASE";
             bindings = <
-&kp A &kp A &kp A &kp A &kp A &kp A      &kp A &kp A &kp A &kp A &kp A       &kp A
+&kp L  &kp W  &kp A  &kp S  &kp D  &lt 1 LEFT_SHIFT  &kp ENTER  &kp X  &kp Y  &kp B  &kp A  &kp R
             >;
 
         };
