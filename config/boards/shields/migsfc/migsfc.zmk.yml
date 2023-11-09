@@ -1,12 +1,8 @@
 file_format: "1"
-id: alice40
-name: Alice40
+id: migsfc
+name: MIGSFC
 type: shield
 url: 
 requires: [pro_micro]
 features:
   - keys
-  - underglow
-siblings:
-  - alice40_left
-  - alice40_right
