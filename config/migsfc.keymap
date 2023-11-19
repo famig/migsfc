@@ -7,24 +7,22 @@
         compatible = "zmk,keymap";
 
         Base_layer {
-            label = "BASE";
+            label = "Base";
             bindings = <
 &lt 1 ESC  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LSHIFT  &kp ENTER  &kp C  &kp M  &kp SPACE  &kp PERIOD  &kp F  &lt 2 F1
             >;
         };
 
-        layer_2 {
+        Layer_1 {
             bindings = <
 &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp R  &trans
             >;
         };
 
-        Number_layer {
+        Layer_2 {
             bindings = <
 &trans  &bt BT_PRV  &bt BT_PRV  &bt BT_NXT  &bt BT_NXT  &bootloader  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
             >;
-
-            label = "NUMBER";
         };
 
         layer_3 {
