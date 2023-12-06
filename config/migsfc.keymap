@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -10,13 +9,13 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp ESC  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &lt 1 M  &kp ENTER  &kp F  &kp C  &kp SPACE  &kp PERIOD  &kp K_POWER  &kt K_POWER
+&kp ESC  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp M  &kp ENTER  &kp F  &kp C  &kp SPACE  &kp PERIOD  &kp TAB  &lt 1 LEFT_SHIFT
             >;
         };
 
         layer_1 {
             bindings = <
-&bootloader  &bt BT_PRV  &bt BT_PRV  &bt BT_NXT  &bt BT_NXT  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans  &bt BT_PRV  &bt BT_PRV  &bt BT_NXT  &bt BT_NXT  &bootloader  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
             >;
         };
     };
