@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -10,7 +9,7 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kt L  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp Z  &lt 1 ENTER  &kp X  &kp Y  &kp B  &kp A  &mt R C  &trans
+&kp ESC  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &lt 1 C  &kp V  &kp R  &kp M  &kp SPACE  &kp A  &kp TAB  &trans
             >;
         };
 
