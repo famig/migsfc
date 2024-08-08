@@ -10,7 +10,7 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kt L  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp Z  &lt 1 ENTER  &kp X  &kp Y  &kp B  &kp A  &kp R  &bt BT_CLR_ALL
+&kt L  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp Z  &lt 1 ENTER  &kp X  &kp Y  &kp B  &kp A  &mt R C  &trans
             >;
         };
 
