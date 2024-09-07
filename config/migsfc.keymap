@@ -9,13 +9,13 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp ESC  &kp UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp C  &kp V  &kp R  &kp M  &kp SPACE  &kp F  &lt 1 TAB  &trans
+&kp ESC  &kp W  &kp A  &kp S  &kp D  &kp C  &kp V  &kp R  &kp M  &kp SPACE  &kp F  &lt 1 TAB  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&soft_off  &trans  &trans  &trans  &trans  &bootloader  &bt BT_CLR_ALL  &bt BT_PRV  &bt BT_PRV  &bt BT_NXT  &bt BT_NXT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader  &bt BT_CLR_ALL  &bt BT_PRV  &bt BT_PRV  &bt BT_NXT  &bt BT_NXT  &trans  &trans
             >;
         };
     };
